@@ -1,0 +1,85 @@
+body {
+	box-sizing: border-box;
+	background-color: #4286f4;
+}
+
+.logo_position {
+    position: relative;
+    left: 45%;
+    margin-top: 10%;
+}
+
+
+.logo{
+	height:35px;
+	width:auto;
+}
+
+.login_area {
+	height: 450px;
+	width: 400px;
+	background-color: white;
+	position: relative;
+	left: 35%;
+	margin-top:15px;
+}
+
+fieldset {
+    border: 0px;
+    margin-top: 12px;
+    margin-left: 26px;
+    padding: 12px 10px 5px;
+    width: ;
+}
+
+h1{
+    font-size: 2em;
+    padding-top: 20px;
+    margin-left: 150px;
+    font-weight: lighter;
+    color: grey;
+}
+
+button, input {
+    
+    clear: left;
+    padding: 15px;
+    border: 2px solid lightgrey;
+}
+
+input {
+    border: 2px solid lightgrey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    background-color: #f4f5f7;
+    width: 286px
+}
+
+button {
+    background: #50bf62;
+    border: #50bf62;
+    border-radius: 3px;
+    color: white;
+    margin-left: 36px;
+    width: 320px;
+}
+
+button:hover{
+	background-color: green;
+}
+.existing_user {
+    color: white;
+    position: relative;
+    left: 43%;
+}
+.existing_user > p > a{
+	color: white;
+}
+.forgot_pwd {
+	    margin-left: 150px;
+}
+.login_area > .forgot_pwd > p > a{
+	color: grey;
+}
+
